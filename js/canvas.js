@@ -112,7 +112,7 @@ const Canvas = (() => {
 
       try {
         await API.placePixel(x, y, currentColor);
-        showCooldown(5);
+        showCooldown(1);
       } catch (err) {
         if (err.retryAfterSeconds != null) {
           showCooldown(err.retryAfterSeconds);
