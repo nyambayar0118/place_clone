@@ -1,6 +1,6 @@
 const WS = (() => {
     let client = null;
-    const WS_BASE = "http://159.223.43.225:8080";
+    const WS_BASE = "https://nyambayar-place.duckdns.org";
 
     function connect() {
         if (client) {

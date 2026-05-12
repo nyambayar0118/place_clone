@@ -1,5 +1,5 @@
 const API = (() => {
-    const BASE = "http://159.223.43.225:8080";
+    const BASE = "https://nyambayar-place.duckdns.org";
 
     function token() { return localStorage.getItem("jwt"); }
     function setToken(t) { localStorage.setItem("jwt", t); }
